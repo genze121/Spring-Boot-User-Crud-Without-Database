@@ -12,9 +12,9 @@ import com.spring.student.model.Users;
 public class UserService {
 
 	List<Users> lists = new ArrayList<Users>(
-			Arrays.asList(new Users("1000", "Tirtha Sharma", "Birpara", "sharma@gmail.com"),
-					new Users("1001", "Sujit Prasad", "Luksang", "prasad@gmail.com"),
-					new Users("1002", "Saurav Singh", "Bangalore", "singh@gmail.com")));
+			Arrays.asList(new Users("1000", "User-1", "User-1-address", "user-1@gmail.com"),
+					new Users("1001","User-2", "User-2-address", "user-2@gmail.com"),
+					new Users("1002", "User-3", "User-3-address", "user-3@gmail.com")));
 
 	public List<Users> getAllUsers() {
 		return lists;
