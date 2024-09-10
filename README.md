@@ -1,8 +1,12 @@
 <h1> Spring-Boot-User-Crud-Without-Database </h1>
 
 ## Following features
-- CRUD Operation
-- C -> CREATE, R -> READ, U -> UPDATE, D -> DELETE
+
+> CRUD Operation
+- C -> CREATE
+- R -> READ
+- U -> UPDATE
+- D -> DELETE
 
 ## Technology stack
 - Java 8+
@@ -13,6 +17,8 @@
 - Embedded Tomcat Server
 
 <h1> Response for getting all the Users </h1>
+
+```json
 
 [
     {
@@ -34,3 +40,7 @@
         "email": "user-3@gmail.com"
     }
 ]
+
+```
+
+Credits: [Tirtha Sharma](https://github.com/genze121 "Tirtha Sharma")
